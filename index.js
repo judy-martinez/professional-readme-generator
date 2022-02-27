@@ -38,6 +38,11 @@ inquirer.prompt([
     },
     {
         type: 'input',
+        name: "contributing",
+        message: "Please provide contribution guidelines"
+    },
+    {
+        type: 'input',
         name: "questions",
         message: "What is your Github username?"
     },
