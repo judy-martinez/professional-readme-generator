@@ -29,7 +29,17 @@ inquirer.prompt([
     {
         type: 'input',
         name: "installation_instructions",
-        message: "describe any instructions for installation, if needed"
+        message: "Describe any instructions for installation, if needed"
+    },
+    {
+        type: 'input',
+        name: "github_username",
+        message: "What is your Github username?"
+    },
+    {
+        type: 'input',
+        name: "email",
+        message: "What is your email address?"
     },
 ]).then(answers => {
     fs.writeFileSync('./dist/README.md', 
@@ -37,6 +47,7 @@ inquirer.prompt([
 
 ## Description
 ${answers.descripion}
+
 
 `)
 //  description, installation_instructions, usage information, contribution guidelines, and test instructions
