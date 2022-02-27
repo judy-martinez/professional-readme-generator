@@ -63,6 +63,17 @@ inquirer.prompt([
 ## Description
 ${answers.description}
 
+## Installation
+${answers.installation}
+
+## Usage
+${answers.usage}
+
+## Contributing
+${answers.contributing}
+
+## Tests
+${answers.tests}
 
 `)
 //  description, installation_instructions, usage information, contribution guidelines, and test instructions
