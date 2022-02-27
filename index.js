@@ -28,17 +28,17 @@ inquirer.prompt([
     },
     {
         type: 'input',
-        name: "installation_instructions",
+        name: "installation",
         message: "Describe any instructions for installation, if needed"
     },
     {
         type: 'input',
-        name: "github_username",
+        name: "questions",
         message: "What is your Github username?"
     },
     {
         type: 'input',
-        name: "email",
+        name: "questions",
         message: "What is your email address?"
     },
 ]).then(answers => {
@@ -46,7 +46,7 @@ inquirer.prompt([
 `# Project Title: ${answers.title}
 
 ## Description
-${answers.descripion}
+${answers.description}
 
 
 `)
