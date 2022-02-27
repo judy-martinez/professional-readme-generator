@@ -34,7 +34,7 @@ inquirer.prompt([
     {
         type: 'input',
         name: "usage",
-        message: "Provide usage information, if any"
+        message: "Describe how to use your app/project"
     },
     {
         type: 'input',
