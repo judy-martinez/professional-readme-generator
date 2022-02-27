@@ -33,6 +33,11 @@ inquirer.prompt([
     },
     {
         type: 'input',
+        name: "usage",
+        message: "Provide usage information, if any"
+    },
+    {
+        type: 'input',
         name: "questions",
         message: "What is your Github username?"
     },
