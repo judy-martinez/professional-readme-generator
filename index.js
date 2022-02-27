@@ -67,7 +67,7 @@ inquirer.prompt([
 `# Project Title: ${answers.title}
 
 ## License
-https://img.shields.io/badge/license-${answers.license}-blue.svg
+![GitHub license](https://img.shields.io/badge/license-${answers.license}-blue.svg)
 
 ## Description
 ${answers.description}
