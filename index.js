@@ -47,21 +47,42 @@ inquirer.prompt([
         message: "Please provide test instructions, if any"
     },
     {
+        type: 'list',
+        name: 'license',
+        message: 'Choose a license for your application',
+        choices: ['MIT', 'Apache', 'ISC', 'Babel', 'None']
+    },
+    {
         type: 'input',
-        name: "questions",
+        name: "github",
         message: "What is your Github username?"
     },
     {
         type: 'input',
-        name: "questions",
+        name: "email",
         message: "What is your email address?"
     },
 ]).then(answers => {
     fs.writeFileSync('./dist/README.md', 
 `# Project Title: ${answers.title}
 
+## License
+https://img.shields.io/badge/license-${answers.license}-blue.svg
+
 ## Description
 ${answers.description}
+
+## Table of Contents 
+
+* [Installation](#installation)
+
+* [Usage](#usage)
+
+* [Contributing](#contributing)
+
+* [Tests](#tests)
+
+* [Questions](#questions)
 
 ## Installation
 ${answers.installation}
@@ -76,7 +97,8 @@ ${answers.contributing}
 ${answers.tests}
 
 ## Questions
-${answers.questions}
+https://github.com/${answers.github}
+${answers.email}
 
 `)
 //  description, installation_instructions, usage information, contribution guidelines, and test instructions
