@@ -75,6 +75,9 @@ ${answers.contributing}
 ## Tests
 ${answers.tests}
 
+## Questions
+${answers.questions}
+
 `)
 //  description, installation_instructions, usage information, contribution guidelines, and test instructions
 //  Description, Installation, Usage, Contributing, and Tests
