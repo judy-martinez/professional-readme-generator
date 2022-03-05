@@ -1,10 +1,9 @@
-# Project Title: hi
+# Project Title: Readme Generator
 
-## License
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
-jfjf
+This app generates readmes
 
 ## Table of Contents 
 
@@ -19,18 +18,19 @@ jfjf
 * [Questions](#questions)
 
 ## Installation
-fdjsf
+npm install and node
 
 ## Usage
-ss
+To generate readmes
 
 ## Contributing
-fsfe
+Guidelines
 
 ## Tests
-grrfad
+Test Instruction
 
 ## Questions
-https://github.com/judy-martinez
-email
+Feel free to contact me for any questions
+* Github: https://github.com/judy-martinez
+* Email: email@email.com
 

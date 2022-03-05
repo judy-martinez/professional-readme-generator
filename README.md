@@ -11,3 +11,4 @@ This is a README generator that allows users to quickly create a README for new 
 * The README will me automatically generated in the "dist" folder
 
 ## Walkthrough Video
+https://youtu.be/9puYhHASJxc
