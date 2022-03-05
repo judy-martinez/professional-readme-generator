@@ -97,9 +97,9 @@ ${answers.contributing}
 ${answers.tests}
 
 ## Questions
-Feel free to reach me here for any questions
-https://github.com/${answers.github}
-${answers.email}
+Feel free to contact me for any questions
+* Github: https://github.com/${answers.github}
+* Email: ${answers.email}
 
 `)
 //  description, installation_instructions, usage information, contribution guidelines, and test instructions
