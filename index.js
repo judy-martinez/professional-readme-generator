@@ -66,7 +66,6 @@ inquirer.prompt([
     fs.writeFileSync('./dist/README.md', 
 `# Project Title: ${answers.title}
 
-## License
 ![GitHub license](https://img.shields.io/badge/license-${answers.license}-blue.svg)
 
 ## Description
