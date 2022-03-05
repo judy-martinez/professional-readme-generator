@@ -97,6 +97,7 @@ ${answers.contributing}
 ${answers.tests}
 
 ## Questions
+Feel free to reach me here for any questions
 https://github.com/${answers.github}
 ${answers.email}
 
