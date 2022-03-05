@@ -102,6 +102,5 @@ Feel free to contact me for any questions
 * Email: ${answers.email}
 
 `)
-//  description, installation_instructions, usage information, contribution guidelines, and test instructions
-//  Description, Installation, Usage, Contributing, and Tests
+
 })
