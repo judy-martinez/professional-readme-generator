@@ -9,3 +9,5 @@ This is a README generator that allows users to quickly create a README for new 
 * To start the application, run node index.js
 * Answer the prompts in your command line
 * The README will me automatically generated in the "dist" folder
+
+## Walkthrough Video
